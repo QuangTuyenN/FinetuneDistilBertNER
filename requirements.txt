@@ -1,0 +1,13 @@
+transformers
+accelerate
+datasets
+bertviz
+umap-learn
+pandas
+huggingface_hub
+torch
+scikit-learn
+evaluate
+fastapi
+uvicorn
+seqeval
