@@ -7,8 +7,8 @@ import evaluate
 import numpy as np
 
 # apply huggingface token to os env
-os.environ["HUGGINGFACE_WRITE_TOKEN"] = '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'
-login('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')
+os.environ["HUGGINGFACE_WRITE_TOKEN"] = ''
+login(HUGGINGFACE_WRITE_TOKEN)
 
 # load dataset
 train_data = load_dataset('Minggz/Vi-Ner', trust_remote_code=True, split="train[:10000]")
